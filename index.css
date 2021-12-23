@@ -3,6 +3,7 @@ h1{
 }
 img{
     width: 100%;
+    max-height: 700px;
 }
 #to-top-link{
     text-align: left;

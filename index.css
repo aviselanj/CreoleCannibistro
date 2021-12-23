@@ -1,6 +1,9 @@
 h1{
     text-align: center;
 }
+img{
+    width: 100%;
+}
 #to-top-link{
     text-align: left;
 }

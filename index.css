@@ -4,6 +4,8 @@ body{
 h1{
     text-align: center;
     color: whitesmoke;
+    font-family:  "Licorice", cursive;
+    font-size: 55px;
 }
 img{
     width: 100%;

@@ -20,6 +20,7 @@ img{
 }
 #to-top-link{
     text-align: left;
+    float: left;
 }
 #copyright{
     text-align: right;
@@ -28,7 +29,7 @@ img{
 }
 #slogan{
     position: relative;
-    bottom: 100px;
+    bottom: 65px;
     text-align: center;
     font-size: 60px;
     font-family: "Luckiest Guy", cursive;

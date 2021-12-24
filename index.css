@@ -14,6 +14,7 @@ img{
     border-color: rgb(146, 12, 12);
     border-width: 5px;
     border-style: solid;
+    border-radius: 15px;
 }
 #to-top-link{
     text-align: left;

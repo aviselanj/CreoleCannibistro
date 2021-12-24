@@ -1,9 +1,13 @@
+body{
+    background: radial-gradient(rgb(219, 252, 219),white, rgb(255, 255, 172));
+}
 h1{
     text-align: center;
 }
 img{
     width: 100%;
     max-height: 700px;
+    opacity: .7;
 }
 #to-top-link{
     text-align: left;
@@ -14,6 +18,7 @@ img{
 #slogan{
     text-align: center;
     font-size: 25px;
+    color: rgb(68, 67, 67);
     
     
 }

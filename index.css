@@ -1,22 +1,26 @@
 body{
-    background: radial-gradient(rgb(255, 255, 255),rgb(0, 0, 0), rgb(5, 5, 5));
+    background: url("https://media.istockphoto.com/photos/golden-stage-picture-id1074418326?k=20&m=1074418326&s=612x612&w=0&h=7XS6GUtsW6VqaSWecm0cxcrBUyS3eJO73rpjeWy1G04=");
+    background-size: 100%;
+    background-repeat: round;
+    
+    
 }
 h1{
     text-align: center;
     color: whitesmoke;
     font-family:  "Licorice", cursive;
-    font-size: 55px;
+    font-size: 75px;
 }
 img{
     width: 100%;
     max-height: 700px;
-    opacity: .4;
+    opacity: .8;
     border-color: rgb(146, 12, 12);
     border-width: 5px;
     border-style: solid;
     border-radius: 50%;
     padding: 5px;
-    margin: 5px;
+    margin: auto;
 }
 #to-top-link{
     text-align: left;
@@ -29,18 +33,18 @@ img{
 }
 #slogan{
     position: relative;
-    bottom: 65px;
+    bottom: 15px;
     text-align: center;
     font-size: 60px;
     font-family: "Luckiest Guy", cursive;
     margin: 15px; 
 }
 .text-gradient{
-    background-image: linear-gradient(60deg, rgb(20, 233, 20), purple, gold);
+    background-image: linear-gradient(60deg, rgb(20, 233, 20), purple, rgb(243, 187, 4));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    opacity: .7;
+    
 }
 .recipes{
     color: rgb(173, 25, 25)

@@ -20,9 +20,9 @@ img{
     border-width: 1px;
     border-style: solid;
     border-radius: 100%;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-right: auto;
+    margin: auto auto auto;
+    padding: 20px 20px 20px 20px;
+
     
 }
 #to-top-link{

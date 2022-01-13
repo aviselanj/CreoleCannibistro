@@ -55,16 +55,16 @@ img{
     -webkit-text-fill-color: transparent;
     
 }
-.flex-container{
+.container{
     display: flex;
     justify-content: center;
 }
-.flex-container div{
+.container div{
     flex: 1;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
     margin: 10px;
-    height: 100px;
-    padding: 30px;
+    height: 150px;
+    padding: 50px;
     justify-content: center;
     font-size: 18px;
     text-align: center;
@@ -76,7 +76,10 @@ a{
     text-decoration: none;
     
 }
-.flex-container div :hover{
+.container div :hover{
    
    font-size: 25px;
+}
+.soup-and-salad{
+ flex: 1;
 }

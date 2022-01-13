@@ -1,19 +1,20 @@
 html{
-    background: black;
-    box-sizing: border-box;
+    background: rgb(0, 0, 0);
+   
 }
 
 body{
     background: url("https://free-images.com/lg/5b7a/marijuana_plant_0.jpg") no-repeat center center fixed;
     background-size: 100%;
-    
 }
+
 h1{
     text-align: center;
     color: whitesmoke;
     font-family:  "Licorice", cursive;
     font-size: 100px;
 }
+
 img{
     width: 100%;
     opacity: .3;
@@ -26,9 +27,10 @@ img{
 
     
 }
-#to-top-link{
+.to-top-link{
     text-align: left;
     float: left;
+    color: rgb(235, 201, 14);
 }
 #copyright{
     text-align: right;
@@ -50,12 +52,19 @@ img{
     -webkit-text-fill-color: transparent;
     
 }
-.recipes{
-    color: rgb(253, 195, 5);
-    font-family: ;
+.flex-container{
+    display: flex;
+}
+.flex-container div{
+    flex: 1;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    margin: 10px;
+    height: 100px;
+    padding: 20px;
+    justify-content: center;
+    background: rgb(199, 81, 2);
+    border-radius: 10px;
+    border: 2px solid rgb(125, 8, 136);
 }
 
 
-a{
-    color: white;
-}
